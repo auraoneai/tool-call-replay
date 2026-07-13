@@ -4,4 +4,4 @@ from .replay import ReplayAssertion, ReplayCase, ReplayEvent, load_replay, run_a
 
 __all__ = ["ReplayAssertion", "ReplayCase", "ReplayEvent", "load_replay", "run_assertions"]
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
