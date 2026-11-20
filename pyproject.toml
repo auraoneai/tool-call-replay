@@ -5,18 +5,21 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tool-call-replay"
 version = "0.1.1"
-description = "Normalize recorded tool-call traces into deterministic local assertions and pytest regressions."
+description = "Replay recorded AI agent tool calls as pytest regressions: normalize traces into deterministic local assertions, reports, and generated tests."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [{ name = "AuraOne", email = "opensource@auraone.ai" }]
 keywords = [
   "ai-agents",
+  "agent-regression-testing",
   "opentelemetry",
   "pytest",
   "regression-testing",
   "replay",
   "tool-calling",
+  "ai agent tool call replay",
+  "pytest regressions",
 ]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -34,7 +37,7 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://auraone.ai/open"
+Homepage = "https://auraone.ai/open/tool-call-replay"
 Source = "https://github.com/auraoneai/tool-call-replay"
 Issues = "https://github.com/auraoneai/tool-call-replay/issues"
 Documentation = "https://github.com/auraoneai/tool-call-replay#readme"
